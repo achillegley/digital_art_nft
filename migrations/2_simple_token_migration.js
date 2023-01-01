@@ -1,5 +1,5 @@
-const SimpleToken = artifacts.require("SimpleToken");
+const Voting = artifacts.require("Voting");
 
 module.exports = function (deployer) {
-  deployer.deploy(SimpleToken);
+  deployer.deploy(Voting);
 };
